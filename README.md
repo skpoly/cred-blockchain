@@ -665,3 +665,30 @@ Refrain from using CRED Standard for activities contrary to freedom, transparenc
 
 Participate in a collaborative spirit, free from short-term speculative motives
 
+
+## Join the CRED Signature Movement
+
+If you believe in the vision of CRED — an ethical, minimal, decentralized monetary system — you can now **sign the Manifesto cryptographically**.
+
+No registration, no tracking. Just one command.
+
+### Sign with SHA256
+
+```bash
+echo "I trust CRED." | sha256sum > hash_<yourname>.txt
+```
+
+Then submit your hash file via GitHub Pull Request to the `/signatures/` folder, or simply email it to the maintainer.
+
+###  Example
+
+```bash
+echo "I trust CRED." | sha256sum > hash_skpoly.txt
+```
+
+This proves you’ve read and acknowledged the intent of the project.
+
+---
+
+## signatures/
+This folder will collect all submitted hashes — a decentralized proof of support.
